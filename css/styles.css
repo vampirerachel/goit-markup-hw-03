@@ -275,6 +275,8 @@ img{
 .navigation-list{
     display:flex;
     align-items: center;
+        margin-top: 0;
+            margin-bottom: 0;
 }
 .navigation-item-link {
     padding-top: 32px;
@@ -305,6 +307,8 @@ margin-right: 50px;
     display: flex;
     align-items: center;
     margin-left:auto;
+        margin-top: 0;
+            margin-bottom: 0;
 }
 .header-contacts-item:not(:last-child){
     margin-right: 50px;
@@ -411,7 +415,8 @@ display: flex;
 }
 .card{
     padding-top: 32px;
-    padding-bottom: 54px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
