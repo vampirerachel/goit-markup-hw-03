@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +7,7 @@
     <title>goit-markup-hw-02</title>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
-        <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
         <link rel="stylesheet" href="./css/styles.css">
 </head>
     <body>
@@ -22,7 +21,7 @@
                 <li class="navigation-item"><a href="#" class="navigation-item-link navigation-link">Contacts</a></li>
             </ul>
         </nav>
-        <ul class="header-contacts header-contacts-list">
+        <ul class="header-contacts-list">
             <li class="header-contacts-item"><a href="mailto:info@devstudio.com" class="header-contacts">info@devstudio.com</a></li>
             <li class="header-contacts-item"><a href="tel:2127724150" class="header-contacts">+1 (212) 772-4150</a></li>
         </ul>
@@ -30,7 +29,7 @@
         </header>
 <main>
     <section class="hero-section">
-        <div class="container">
+        <div class="container hero-container">
             <h1 class="hero-title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
             <button type="button" class="hero-button">Request our service</button>
         </div>
@@ -38,15 +37,15 @@
     <section class="features-section">
         <div class="container">
             <h2 class="visually-hidden">Our Features</h2>
-            <ul class="features-list-description">
-                <li>
+            <ul class="features-list">
+                <li class="features-item">
                     <div class="features-description">
                     <h3 class="features-title">ATTENTION TO DETAILS</h3>
                     <p class="features-text">We go into all the details and processes of your business to
                     develop a customized solution.</p>
                     </div>
                 </li>
-                <li>
+                <li class="features-item">
                     <div class="features-description">
                     <h3 class="features-title">PUNCTUALITY</h3>
                     <p class="features-text">With us, you can feel safe and secure. An important principle of
@@ -54,14 +53,14 @@
                     time and respect the agreed deadlines.</p>
                     </div>
                 </li>
-                <li>
+                <li class="features-item">
                     <div class="features-description">
                     <h3 class="features-title">PLANNING</h3>
                     <p class="features-text">You will be able to observe and participate in every phase of
                     solution development and implementation.</p>
                     </div>
                     </li>
-                <li>
+                <li class="features-item">
                     <div class="features-description">
                     <h3 class="features-title">MODERN TECHNOLOGIES</h3>
                     <p class="features-text">We use innovative tools to solve assigned tasks.
@@ -127,19 +126,19 @@
     </section>
 </main>
     <footer class="footer-section">
-        <div class="container footer-container">
-                <a href="./index.html" class="logo footer-logo footer-hover">Web Studio</a>
-                    <address class="footer-address">
-                        <a href="https://goo.gl/maps/3bXYwfZaXWvFELf49" class="footer-address-link footer-hover">
-                695 Park Ave, New York, NY 10065, United States</a>
-                <ul class="footer-contact-list">
+        <div class="container">
+            <a href="./index.html" class="logo footer-logo footer-hover">Web Studio</a>
+            <address class="footer-address">
+                <a href="https://goo.gl/maps/3bXYwfZaXWvFELf49" class="footer-address-link footer-hover">
+                    695 Park Ave, New York, NY 10065, United States</a>
+                <ul>
                     <li>
-                    <a class="footer-contact footer-hover" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a class="footer-contact footer-hover" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
                     <li>
-                    <a class="footer-contact footer-hover" href="tel:2127724150">+1 212-772-4150</a>
+                        <a class="footer-contact footer-hover" href="tel:2127724150">+1 212-772-4150</a>
                     </li>
-                    </ul>
+                </ul>
             </address>
         </div>
     </footer>

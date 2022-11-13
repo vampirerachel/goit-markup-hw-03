@@ -8,40 +8,38 @@
     <title>goit-markup-hw-02</title>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap">
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header class="header-section">
-        <div class="container header-container">
-            <a href="./index.html" class="logo header-logo">Web Studio</a>
-            <nav>
-                <ul class="navigation-list">
-                    <li class="navigation-item"><a href="./index.html"
-                            class="navigation-item-link navigation-link">Studio</a></li>
-                    <li class="navigation-item"><a href="./portfolio.html"
-                            class="navigation-item-link navigation-link navigation-link-current">Portfolio</a></li>
-                    <li class="navigation-item"><a href="#" class="navigation-item-link navigation-link">Contacts</a>
-                    </li>
+        <header class="header-section">
+            <div class="container header-container">
+                <a href="./index.html" class="logo header-logo">Web Studio</a>
+                <nav>
+                    <ul class="navigation-list">
+                        <li class="navigation-item"><a href="./index.html"
+                                class="navigation-item-link navigation-link">Studio</a></li>
+                        <li class="navigation-item"><a href="./portfolio.html"
+                                class="navigation-item-link navigation-link navigation-link-current">Portfolio</a></li>
+                        <li class="navigation-item"><a href="#" class="navigation-item-link navigation-link">Contacts</a></li>
+                    </ul>
+                </nav>
+                <ul class="header-contacts-list">
+                    <li class="header-contacts-item"><a href="mailto:info@devstudio.com"
+                            class="header-contacts">info@devstudio.com</a></li>
+                    <li class="header-contacts-item"><a href="tel:2127724150" class="header-contacts">+1 (212) 772-4150</a></li>
                 </ul>
-            </nav>
-            <ul class="header-contacts header-contacts-list">
-                <li class="header-contacts-item"><a href="mailto:info@devstudio.com"
-                        class="header-contacts">info@devstudio.com</a></li>
-                <li class="header-contacts-item"><a href="tel:2127724150" class="header-contacts">+1 (212) 772-4150</a>
-                </li>
-            </ul>
-        </div>
-    </header>
+            </div>
+        </header>
 <main>
-        <section>
+        <section class="portfolio-section">
             <div class="container">
             <h1 class="visually-hidden">Portfolio</h1>
             <ul class="filter-button-list">
                 <li class="filter-button-item"><button type="button" class="filter-buttons">All</button>
                 </li>
-                <li>
+                <li class="filter-button-item">
                     <button type="button" class="filter-buttons">Web-sites</button>
                 </li>
                 <li class="filter-button-item">
@@ -54,8 +52,8 @@
                     <button type="button" class="filter-buttons">Marketing</button>
                 </li>
             </ul>
-            <ul class="portfolio-images">
-                <li class="portfolio-images-list">
+            <ul class="portfolio-list">
+                <li class="portfolio-item">
                     <img src="./images/portfolio/website.jpg" alt="computer displaying a portfolio" width="370"
                     height="290">
                     <div class="card">
@@ -63,7 +61,7 @@
                     <p class="portfolio-description">Web-site</p>
                     </div>
                 </li>
-                <li class="portfolio-images-list">
+                <li class="portfolio-item">
                     <img src="./images/portfolio/basketball.jpg" alt="painting of two men playing basketball"
                         width="370" height="290">
                     <div class="card">
@@ -71,14 +69,14 @@
                     <p class="portfolio-description">Design</p>
                     </div>
                 </li>
-                <li><img src="./images/portfolio/the-seafood-restaurant.jpg"
+                <li class="portfolio-item"><img src="./images/portfolio/the-seafood-restaurant.jpg"
                         alt="the seafood restaurant logo with large fish" width="370" height="290">
                     <div class="card">
                         <h3 class="portfolio-title">Seafood Restaurant</h3>
                     <p class="portfolio-description">Apps</p>
                 </div>
                 </li>
-                <li class="portfolio-images-list">
+                <li class="portfolio-item">
                     <img src="./images/portfolio/headphones.jpg" alt="black over-the-ear headphones"
                     width="370" height="290">
                     <div class="card">
@@ -86,21 +84,21 @@
                     <p class="portfolio-description">Marketing</p>
                     </div>
                 </li>
-                <li class="portfolio-images-list">
+                <li class="portfolio-item"class="portfolio-item">
                     <img src="./images/portfolio/products.jpg" alt="two boxes with the company logo" width="370" height="290">
                     <div class="card">
                     <h3 class="portfolio-title">Project Boxes</h3>
                     <p class="portfolio-description">Apps</p>
                     </div>
                 </li>
-                <li>
+                <li class="portfolio-item">
                     <img src="./images/portfolio/computer.jpg" alt="a computer displaying a webpage" width="370" height="290">
                     <div class="card">
                     <h3 class="portfolio-title">Inspiration has no Borders</h3>
                     <p class="portfolio-description">Web-site</p>
                     </div>
                 </li>
-                <li class="portfolio-images-list">
+                <li class="portfolio-item">
                     <img src="./images/portfolio/book.jpg" alt="a book open to the 'limited edition' chapter" width="370"
                         height="290">
                     <div class="card">
@@ -108,14 +106,14 @@
                     <p class="portfolio-description">Design</p>
                     </div>
                 </li>
-                <li class="portfolio-images-list">
+                <li class="portfolio-item">
                     <img src="./images/portfolio/lab.jpg" alt="a label displaying the logo for 'LAB'" width="370" height="290">
                     <div class="card">
                     <h3 class="portfolio-title">Project LAB</h3>
                     <p class="portfolio-description">Marketing</p>
                     </div>
                 </li>
-                <li>
+                <li class="portfolio-item">
                     <img src="./images/portfolio/typing.jpg" alt="hands typing on a computer" width="370" height="290">
                     <div class="card">
                     <h3 class="portfolio-title">Growing Business</h3>
@@ -127,12 +125,12 @@
         </section>
 </main>
     <footer class="footer-section">
-        <div class="container footer-container">
+        <div class="container">
             <a href="./index.html" class="logo footer-logo footer-hover">Web Studio</a>
             <address class="footer-address">
                 <a href="https://goo.gl/maps/3bXYwfZaXWvFELf49" class="footer-address-link footer-hover">
                     695 Park Ave, New York, NY 10065, United States</a>
-                <ul class="footer-contact-list">
+                <ul>
                     <li>
                         <a class="footer-contact footer-hover" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
